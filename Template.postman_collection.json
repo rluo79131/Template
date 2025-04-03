@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "1e5b4429-432c-4b6c-9a14-3cb05215fde9",
+		"name": "Template",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30939545"
+	},
+	"item": [
+		{
+			"name": "新增使用者資料",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"roger\",\r\n    \"Gender\": \"Male\",\r\n    \"Phone\": \"0912345678\",\r\n    \"Email\": \"roger@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Template}}/api/users",
+					"host": [
+						"{{Template}}"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "取得使用者資料",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Template}}/api/users/1",
+					"host": [
+						"{{Template}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "更新使用者資料",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": 1,\r\n    \"Name\": \"ren\",\r\n    \"Gender\": \"Male\",\r\n    \"Phone\": \"0987654321\",\r\n    \"Email\": \"ren@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Template}}/api/users",
+					"host": [
+						"{{Template}}"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除使用者資料",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{Template}}/api/users/1",
+					"host": [
+						"{{Template}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
