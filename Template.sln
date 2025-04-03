@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.WebApi", "Template.WebApi\Template.WebApi.csproj", "{46B7B830-F172-4FF5-87F5-A618F3B53590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.WebApi", "Template.WebApi\Template.WebApi.csproj", "{46B7B830-F172-4FF5-87F5-A618F3B53590}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.BussinessLogic", "Template.BussinessLogic\Template.BussinessLogic.csproj", "{F68DD634-7794-414D-A59F-67FC960622FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.BussinessLogic", "Template.BussinessLogic\Template.BussinessLogic.csproj", "{F68DD634-7794-414D-A59F-67FC960622FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.DataAccess", "Template.DataAccess\Template.DataAccess.csproj", "{4FC3762F-147D-41AF-9FBB-ACC3648CEF85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.DataAccess", "Template.DataAccess\Template.DataAccess.csproj", "{4FC3762F-147D-41AF-9FBB-ACC3648CEF85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Infra", "Template.Infra\Template.Infra.csproj", "{63B68FB6-3592-45DE-8E3F-A1A96AD73589}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Infra", "Template.Infra\Template.Infra.csproj", "{63B68FB6-3592-45DE-8E3F-A1A96AD73589}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Template.Database", "Template.Database\Template.Database.sqlproj", "{6380CD23-86C9-4E6A-89EF-8BC33383EE39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,12 @@ Global
 		{63B68FB6-3592-45DE-8E3F-A1A96AD73589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63B68FB6-3592-45DE-8E3F-A1A96AD73589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63B68FB6-3592-45DE-8E3F-A1A96AD73589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6380CD23-86C9-4E6A-89EF-8BC33383EE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6380CD23-86C9-4E6A-89EF-8BC33383EE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6380CD23-86C9-4E6A-89EF-8BC33383EE39}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6380CD23-86C9-4E6A-89EF-8BC33383EE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6380CD23-86C9-4E6A-89EF-8BC33383EE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6380CD23-86C9-4E6A-89EF-8BC33383EE39}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
